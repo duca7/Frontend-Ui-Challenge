@@ -81,3 +81,12 @@ input {
     border-radius: 0.5rem;
     color: #A2A2A2;
 }
+
+.ahihi {
+    display: inline-flex;
+    margin-top: 1rem;
+}
+
+span {
+    margin-top: 5px;
+}
