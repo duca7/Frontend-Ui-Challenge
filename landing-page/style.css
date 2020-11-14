@@ -90,3 +90,10 @@ input {
 span {
     margin-top: 5px;
 }
+
+.row-content {
+    float: left;
+    width: 15rem;
+    border: 1px solid black;
+    padding: 10px;
+}
