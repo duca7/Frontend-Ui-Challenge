@@ -1,103 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
-:root {
-    --back-ground-color: #FBF7EE;
-    --btn-back-ground-color: #0B48A8;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    font-family: 'Karla', sans-serif;
-    font-size: 62.5%;
-    background-color: var(--back-ground-color);
-}
-
-.nav-bar {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2rem;
-}
-
-.nav-bar--title>ul>li {
-    display: inline-block;
-    font-size: 18px;
-    font-family: 'Karla', sans-serif;
-    padding: 0.7rem;
-}
-
-.nav-bar--btn>ul>li {
-    display: inline-block;
-    font-size: 18px;
-    font-family: 'Karla', sans-serif;
-    padding: 0.1rem;
-}
-
-.btn-signin {
-    border: none;
-    outline: none;
-    background-color: var(--back-ground-color);
-    font-size: 18px;
-}
-
-.btn-tryfree {
-    width: 145px;
-    height: 49px;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    border-radius: 0.5rem;
-    background-color: var(--btn-back-ground-color);
-    color: #FFFFFF;
-    font-weight: bold;
-    border-bottom: 0.3rem solid #041C40;
-}
-
-.content {
-    display: flex;
-    justify-content: space-around;
-}
-
-.content-title {
-    font-size: 40px;
-    font-family: 'Karla', sans-serif;
-    font-weight: bold;
-    color: #13366D;
-}
-
-.content-title-content {
-    color: #A2A2A2;
-    font-family: 'Karla', sans-serif;
-}
-
-input {
-    width: 20rem;
-    height: 49px;
-    border: none;
-    border: 1px solid #B5B5B5;
-    outline: none;
-    border-radius: 0.5rem;
-    color: #A2A2A2;
-}
-
-.ahihi {
-    display: inline-flex;
-    margin-top: 1rem;
-}
-
-span {
-    margin-top: 5px;
-}
-
-.row {
-    margin-top: 2rem;
-}
-
-.row-content {
-    float: left;
-    width: 13rem;
-    border: 1px solid black;
-    padding: 0 2rem;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+     :root {
+        --back-ground-color: #FBF7EE;
+        --btn-back-ground-color: #0B48A8;
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        font-family: 'Karla', sans-serif;
+        font-size: 62.5%;
+        background-color: var(--back-ground-color);
+    }
+    
+    .nav-bar {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+    }
+    
+    .nav-bar--title>ul>li {
+        display: inline-block;
+        font-size: 18px;
+        font-family: 'Karla', sans-serif;
+        padding: 0.7rem;
+    }
+    
+    .nav-bar--btn>ul>li {
+        display: inline-block;
+        font-size: 18px;
+        font-family: 'Karla', sans-serif;
+        padding: 0.1rem;
+    }
+    
+    .btn-signin {
+        border: none;
+        outline: none;
+        background-color: var(--back-ground-color);
+        font-size: 18px;
+    }
+    
+    .btn-tryfree {
+        width: 145px;
+        height: 49px;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        border-radius: 0.5rem;
+        background-color: var(--btn-back-ground-color);
+        color: #FFFFFF;
+        font-weight: bold;
+        border-bottom: 0.3rem solid #041C40;
+    }
+    
+    .content {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .content-title {
+        font-size: 40px;
+        font-family: 'Karla', sans-serif;
+        font-weight: bold;
+        color: #13366D;
+    }
+    
+    .content-title-content {
+        color: #A2A2A2;
+        font-family: 'Karla', sans-serif;
+    }
+    
+    input {
+        width: 20rem;
+        height: 49px;
+        border: none;
+        border: 1px solid #B5B5B5;
+        outline: none;
+        border-radius: 0.5rem;
+        color: #A2A2A2;
+    }
+    
+    .ahihi {
+        display: inline-flex;
+        margin-top: 1rem;
+    }
+    
+    span {
+        margin-top: 5px;
+    }
+    
+    .row-content {
+        float: left;
+        margin: 2rem 0 0 9rem;
+    }
+    
+    .card-content {
+        width: 12rem;
+        height: 10rem;
+        border: 1px solid gainsboro;
+        background-color: #FFFFFF;
+        padding: 10px;
+    }
+    
+    h3 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
