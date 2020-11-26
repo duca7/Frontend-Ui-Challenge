@@ -82,7 +82,7 @@
         color: #A2A2A2;
     }
     
-    .ahihi {
+    .tick-btn {
         display: inline-flex;
         margin-top: 1rem;
     }
@@ -98,7 +98,7 @@
     
     .card-content {
         width: 12rem;
-        height: 10rem;
+        height: 16rem;
         border: 1px solid gainsboro;
         background-color: #FFFFFF;
         padding: 10px;
@@ -107,4 +107,11 @@
     h3 {
         font-size: 1rem;
         font-weight: bold;
+        margin-top: 0.5rem;
+    }
+    
+    .card-text {
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 2rem;
     }
