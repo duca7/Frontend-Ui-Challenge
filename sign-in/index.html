@@ -11,28 +11,29 @@
 
 <body>
     <section class="section">
-        <div class="container">
+        <div class="main">
             <div class="intro-section">
-                <h1 class="intro-title">WELCOME TO DOTNET-ALGORITHON</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dignissimos officia sint animi voluptatum est praesentium nostrum, iusto earum fugit.
-                </p>
-                <img src="../sign-in/laptop.png" alt="">
+                <h6 class="intro-heading">Welcome to <span style="color:#46a049">dotnet-algorithon</span> </h6>
+                <p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dignissimos officia sint animi voluptatum est praesentium nostrum, iusto earum fugit.</p>
+                <img src="../sign-in/laptop.png" alt="Laptop">
             </div>
 
-            <div class="form-section">
-                <div class="sign-in-block">
-                    <form action="#" class="sign-in-form" autocomplete="off">
+            <div class="sign-section">
+                <div class="sign-block">
+                    <h3 class="sign-heading">Sign in</h3>
+                    <form action="#" class="signup-form" autocomplete="off">
                         <label for="email" class="signup-label">Email:</label>
                         <input type="text" id="email" class="signup-input" placeholder="Eg: johndoe@gmai.com">
                         <label for="password" class="signup-label">Password:</label>
-                        <input type="password" id="password" class="signup-input" placeholder="********">
+                        <input type="password" id="password" class="signup-input intput-pass" placeholder="********">
                         <button class="sign-button">Sign in</button>
                     </form>
+                    <p class="signup-already">
+                        <span>Do you have an account ?</span>
+                        <a href="#" class="signup-login-link">Sign up here!</a>
+                    </p>
                 </div>
             </div>
-
-
         </div>
     </section>
 </body>
