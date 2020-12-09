@@ -1,0 +1,95 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?dpr=2&fit=crop&fm=jpg&h=960&ixlib=rb-0.3.5&q=50&w=1440);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.content {
+    width: 35rem;
+    height: 18rem;
+    background-color: #333;
+    position: absolute;
+    top: 58%;
+    left: 53%;
+    transform: translate(-55%, -55%);
+    border-radius: 5px;
+}
+
+.browser-bar {
+    background: #f9f9f3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+
+.button {
+    float: left;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.close {
+    background: #fc635d;
+}
+
+.min {
+    background: #fdbc40;
+}
+
+.max {
+    background: #34c84a;
+}
+
+.text-typing {
+    margin-top: 10%;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.text-1 {
+    color: white;
+    margin: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s linear infinite;
+}
+
+.text-2 {
+    color: white;
+    margin: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-delay: -5s;
+    animation: animate 6s linear infinite;
+}
+
+.link {
+    text-decoration: none;
+    color: lightblue;
+}
+
+@keyframes typing {
+    0% {
+        width: 0%
+    }
+    100% {
+        width: 100%
+    }
+}
+
+@keyframes animate {
+    0% {
+        width: 0%
+    }
+    100% {
+        width: 100%
+    }
+}
