@@ -50,7 +50,7 @@ body {
 
 .text-typing {
     margin-top: 10%;
-    font-size: 30px;
+    font-size: 25px;
     font-family: monospace;
 }
 
@@ -59,16 +59,7 @@ body {
     margin: 0px;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 4s linear infinite;
-}
-
-.text-2 {
-    color: white;
-    margin: 0px;
-    white-space: nowrap;
-    overflow: hidden;
-    animation-delay: -5s;
-    animation: animate 6s linear infinite;
+    animation: typing 10s linear infinite;
 }
 
 .link {
@@ -77,15 +68,6 @@ body {
 }
 
 @keyframes typing {
-    0% {
-        width: 0%
-    }
-    100% {
-        width: 100%
-    }
-}
-
-@keyframes animate {
     0% {
         width: 0%
     }
