@@ -76,3 +76,37 @@ body {
     background-color: #000000;
     margin-top: 20px;
 }
+
+.introduce__text {
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+.introduce__title {
+    font-size: 35px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.introduce__content {
+    font-size: 12px;
+    margin-top: 15px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.introduce__search {
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-search {
+    width: 200px;
+    height: 45px;
+    font-size: 12px;
+    color: #ffffff;
+}
